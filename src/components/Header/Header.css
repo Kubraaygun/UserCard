@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    color: purple;
+    padding: 15px 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .header-logo {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 15px;
+    background-color: rgb(227, 199, 227);
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .infoBox{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 17px;
+  }
+
+ 
